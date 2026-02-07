@@ -16,9 +16,18 @@ export default function Header() {
 
         {/* Desktop links */}
         <nav className="nav-links desktop">
-          <NavLink to="/" end>Maison</NavLink>
-          <NavLink to="/shop">Boutique</NavLink>
-          <NavLink to="/cart">Panier</NavLink>
+          <NavLink to="/" end>
+            Maison
+          </NavLink>
+          <NavLink to="/shop">
+            Boutique
+          </NavLink>
+          <NavLink to="/about">
+            About
+          </NavLink>
+          <NavLink to="/cart">
+            Panier
+          </NavLink>
         </nav>
 
         {/* Mobile button */}
@@ -34,9 +43,18 @@ export default function Header() {
       {/* Mobile menu */}
       {open && (
         <nav className="mobile-menu">
-          <NavLink to="/" end onClick={close}>Maison</NavLink>
-          <NavLink to="/shop" onClick={close}>Boutique</NavLink>
-          <NavLink to="/cart" onClick={close}>Panier</NavLink>
+          <NavLink to="/" end onClick={close}>
+            Maison
+          </NavLink>
+          <NavLink to="/shop" onClick={close}>
+            Boutique
+          </NavLink>
+          <NavLink to="/about" onClick={close}>
+            About
+          </NavLink>
+          <NavLink to="/cart" onClick={close}>
+            Panier
+          </NavLink>
         </nav>
       )}
     </header>
