@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./Pages/Home";
-import Shop from "./Pages/Shop";
-import Product from "./Pages/Product";
-import Cart from "./Pages/Cart";
-import Checkout from "./Pages/Checkout";
-import Confirmed from "./Pages/Confirmed";
 import About from "./pages/About";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import Product from "./pages/Product";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import Confirmed from "./pages/Confirmed";
 import Footer from "./components/Footer";
 
 

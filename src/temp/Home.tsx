@@ -1,5 +1,8 @@
+document.title = "EHYoub Streetwear — React Front-End Demo";
 import { Link } from "react-router-dom";
 import { products } from "../data/products";
+
+
 
 export default function Home() {
   document.title = "EHYoub — Premium Streetwear";
